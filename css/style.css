@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 960px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family: monospace;
+    font-weight: 600;
+    color: white;
+}
+
+header {
+    height: 75px;
+    background-color: #3f8f8d;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #3f8f8d;
+    height: 35px;
+    padding: 10px;
+    clear: both;
+    position: relative;
+}
+
+.form {
+    float: left;
+    margin: 50px;
+}
+
+form {
+    border: 1px dashed gray;
+    padding: 50px;
+    align-items: center;
+}
+
+form label {
+    font-family: fantasy;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+form input {
+    width: 250px;
+    margin-top: 8px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+form select {
+    width: 250px;
+    margin-top: 8px;
+    padding: 5px;
+}
+
+.btn {
+    width: 55px;
+    background-color: #609c4d;
+    color: #f5f2ec;
+    margin-top: 10px;
+    border: 1px solid #5f5b5b;
+}
+
+table {
+    width: 350px;
+    background-color: #ffd3de;
+    /* margin: 16px; */
+    margin-top: 47px;
+    float: right;
+    margin-left: 22px;
+}
+
+table tr {
+    border-bottom: 1px solid white;
+    /* padding: 15px; */
+    height: fit-content;
+    text-align: center;
+}
+
+table td {
+    height: 30px;
+}
+
+table td image {
+    width: 85px;
+    height: 60px;
+    margin: auto;
+}
